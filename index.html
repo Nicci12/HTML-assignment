@@ -1,52 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML ASSIGNMENT</title>
-  </head>
-  <body>
-    <div class="nav">
-      <ul>
-        <li>
-          <a href="./index.html">
-            <p>Home</p>
-          </a>
-        </li>
-        <li>
-          <a href="./Movies/movies.html">
-            <p>Movies</p>
-          </a>
-        </li>
-        <li>
-          <a href="./Books/books.html">
-            <p>Books</p>
-          </a>
-        </li>
-        <li>
-          <a href="./Hobbies/hobbies.html">
-            <p>Hobbies</p>
-          </a>
-        </li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML ASSIGNMENT</title>
+</head>
+
+<body style="width: 100%; height: 100%">
+  <div style="
+        background: rgba(33, 45, 57, 0.8);
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+      ">
+    <ul>
+      <li style="display: inline-block; margin-right: 10px; color: black">
+        <a href="./index.html" style="text-decoration: none">
+          <p style="color: #fff; text-decoration: none; font-size: 25px">
+            Home
+          </p>
+        </a>
+      </li>
+      <li style="display: inline-block; margin-right: 20px; color: black">
+        <a href="./Movies/movies.html" style="text-decoration: none">
+          <p style="color: #fff; text-decoration: none; font-size: 25px">
+            Movies
+          </p>
+        </a>
+      </li>
+      <li style="display: inline-block; margin-right: 20px; color: black">
+        <a href="./Books/books.html" style="text-decoration: none">
+          <p style="color: #fff; text-decoration: none; font-size: 25px">
+            Books
+          </p>
+        </a>
+      </li>
+      <li style="display: inline-block; margin-right: 20px; color: black">
+        <a href="./Hobbies/hobbies.html" style="text-decoration: none">
+          <p style="color: #fff; text-decoration: none; font-size: 25px">
+            Hobbies
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section style="color: black; overflow: hidden">
+    <div style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          width: 100%;
+          max-width: 100%;
+          margin-left: 2rem;
+        ">
+      <div style="float: left; width: 50%; box-sizing: border-box">
+        <div style="margin-top: 15px; padding-bottom: 15px">
+          <h6 style="
+                color: black;
+                font-size: 25px;
+                font-weight: 500;
+                margin: 0 0 20px;
+              ">
+            Hello, I am
+          </h6>
+          <h1 style="
+                font-size: 70px;
+                font-weight: 700;
+                line-height: 70px;
+                margin: 0 0 20px;
+                color: pink;
+              ">
+            Nicola
+          </h1>
+          <h3 style="
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 30px;
+                margin: 0 0 20px;
+              ">
+            And These Are Some of My Favorite Things
+          </h3>
+          <div style="
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          font-weight: 200;
+          line-height: 30px;
+          margin: 0 0 20px;
+        ">
+            <h2>Favorite Hobbies:</h2>
+            <a href="./Hobbies/hobbies.html" style="text-decoration: none">
+              <p style="
+                    padding-left: 1rem;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 200;
+                  ">
+                Go to Favorite Hobbies
+              </p>
+          </div>
+          <div style="
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          font-weight: 200;
+          line-height: 30px;
+          margin: 0 0 20px;
+          color:black
+        ">
+           <h2>Favorite Movies</h2>
+            <a href="./Movies/movies.html" style="text-decoration: none">
+              <p style="
+              padding-left: 1rem;
+              text-align: center;
+              font-size: 20px;
+              font-weight: 200;
+            ">
+                Go to Favorite Movies
+              </p>
+            </a>
+          </div>
+          <div style="
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          font-weight: 200;
+          line-height: 30px;
+          margin: 0 0 20px;
+        ">
+            <h2>Favorite Books:</h2>
+            <a href="./Books/books.html" style="text-decoration: none">
+              <p style="
+                    padding-left: 1rem;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 200;
+                  ">
+                Go to Favorite Books
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div style="float: left; width: 50%; box-sizing: border-box">
+        <div style="width: 50%; height: 50%">
+          <img src="./img/profile.jpg" title="profile picture" alt="profile picture" style="width: 50%; height: 50%" />
+        </div>
+      </div>
     </div>
-    <div class="container">
-      <div class="title_div">
-        <h1>ABOUT ME</h1>
-      </div>
-      <div class="sub_title_div">
-        <h2>Favorite Hobbies:</h2>
-        <a href="./Hobbies/hobbies.html">Go to Favorite Hobbies</a>
-      </div>
-      <div class="sub_title_div">
-        <h2>Favorite Movies:</h2>
-        <a href="./Movies/movies.html">Go to Favorite Movies</a>
-      </div>
-      <div class="sub_title_div">
-        <h2>Favorite Books:</h2>
-        <a href="./Books/books.html">Go to Favorite Books</a>
-      </div>
-    </div>
-  </body>
+  </section>
+</body>
+
 </html>
